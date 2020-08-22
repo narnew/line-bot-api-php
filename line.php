@@ -21,7 +21,7 @@ if ( sizeof($request_array['events']) > 0 )
    if( $event['message']['type'] == 'text' )
    {
 		$text = $event['message']['text'];
-	   if($text == "ชื่อ" || "ชื่ออะไร" || $text == "ชื่ออะไรคะ" || $text == "ชื่ออะไรครับ"){
+	   if($text == "ชื่อ" ||$text == "ชื่ออะไร" || $text == "ชื่ออะไรคะ" || $text == "ชื่ออะไรครับ"){
 	      $reply_message = 'ชื่อของฉันคือ Bunny';
 	   }
 	//	$reply_message = '('.$text.') ได้รับข้อความเรียบร้อย!!';   
