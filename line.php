@@ -23,11 +23,8 @@ if ( sizeof($request_array['events']) > 0 )
   $text = $event['message']['text'];
   if($text == "เธอชื่อไรหรอจ๊ะ" ||$text == "ชื่อ"||$text == "ชื่ออะไร"||$text == "ชื่ออะไรครับ"||$text == "ชื่ออะไรคะ"||$text == "name"||$text == "What your name?"){
    $reply_message = 'เราชื่อว่า แรปบิต เขียนเป็นภาษาอังกฤษได้ว่า Rapbit :);
-  }
   
-  if($text == "สวัสดี" ||$text == "สวัสดีจ้า"||$text == "สวัสดีครับ"||$text == "สวัสดีค่ะ"){
-   $reply_message = 'สวัสดีครับ :)';
-  }
+ }
     
          if($text == "สถานการณ์โควิดวันนี้" || $text == "covid19" || $text == "covid-19" || $text == "Covid-19"){
                  $url = 'https://covid19.th-stat.com/api/open/today';
