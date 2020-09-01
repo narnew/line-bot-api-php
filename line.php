@@ -58,6 +58,7 @@ if ( sizeof($request_array['events']) > 0 )
 
        //$reply_message = $result;
        $reply_message = 'ติดเชื้อสะสม : '. $obj->{'Confirmed'} . ' คน'."\n".'รักษาหายแล้ว : ' . $obj->{'Recovered'} . ' คน';
+     // $reply_message = 'ผลการบันทึก '. $obj->{'Confirmed'} . ' OK'."\n".'รักษาหายแล้ว : ' . $obj->{'Recovered'} . ' คน';
   }
   //$reply_message = '('.$text.') ได้รับข้อความเรียบร้อย!!';   
    }
