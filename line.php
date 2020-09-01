@@ -24,7 +24,7 @@ if ( sizeof($request_array['events']) > 0 )
   {
    $reply_message = 'Rabbittt';   
   }
-     else if($text == "ทำไรอยู่" || $text == "ทำอะไรอยู่" || $text == "ทำราย")
+     else if($text == "ทำไรอยู่" || $text == "ทำอะไรอยู่" || $text == "ทำรายอะ")
   {
    $reply_message = 'คิดถึงคนถามอยู่ค้าบ อิอิ'; 
   }
